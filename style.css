@@ -1,0 +1,57 @@
+.menubar ul li {
+    padding: 0 15px;
+    text-align: center;
+}
+
+.banner {
+    padding: 100px 50px;
+    background-image: url("assets/2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.banner .container {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner h2 {
+    font-size: 50px;
+}
+
+.carousel-item img {
+    height: 500px;
+    width: auto;
+}
+
+p {
+    margin-bottom: 0;
+    padding: 0 5px;
+}
+
+.top-product{
+    height: 500px;
+}
+
+.bg-image{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-bottom{
+    position: absolute;
+    bottom: 20px;
+    margin:0 auto;
+    padding: 10px 30px;
+ 
+}
+
+.section-margin{
+    margin-top: 100px;
+    margin-bottom: 100px
+}
+
+.content-banner{
+    padding: 200px 100px 50px;
+}
