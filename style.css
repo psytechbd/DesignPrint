@@ -7,6 +7,9 @@
     padding: 0 15px;
     text-align: center;
 }
+.menu-link{
+font-size: 14px;
+}
 
 .banner {
     padding: 100px 50px;
@@ -115,3 +118,24 @@ p {
     transition: all 0.4s ease-in-out;
 }
  
+@media (max-width: 576px)  {
+    .btn-bottom{
+        position: static;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .top-product{
+        height: 750px;
+    }
+    .banner{
+        padding: 20px;
+        text-align: center;
+    }
+    .carousel-item img{
+        height: 300px;
+    }
+    .navbar{
+        justify-content: right;
+    }
+}
