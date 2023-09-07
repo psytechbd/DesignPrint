@@ -12,20 +12,29 @@ font-size: 14px;
 }
 
 .banner {
-    padding: 100px 50px;
-    background-image: url("assets/2.jpg");
+    padding: 15vh;
+    background-image: url("assets/Banner-bg-green.webp");
     background-repeat: no-repeat;
     background-size: cover;
-
+    background-position: center;
+    height: 60vh;
+    
 }
 
-.banner .container {
-    justify-content: space-around;
-    align-items: center;
-}
+
 
 .banner h2 {
     font-size: 50px;
+}
+.banner h2,h3,h5{
+    margin-bottom:20px;
+}
+
+.button-list > .btn{  
+ border-radius: 30px;
+ padding: 5px 40px;
+ margin: 30px 5px;
+
 }
 
 .carousel-item img {
@@ -66,10 +75,12 @@ p {
 .image-4 img{
     height: 300px;
     width: 100%;
+    object-fit: cover;
 }
 .image-6 img{
     height: 200px;
     width: 100%;
+    object-fit: cover;
 }
 /* Clients Section */
 
@@ -146,3 +157,6 @@ p {
         justify-content: right;
     }
 }
+@media (max-width: 1199.98px) { 
+    
+ }
