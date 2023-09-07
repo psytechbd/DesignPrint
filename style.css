@@ -17,7 +17,7 @@ font-size: 14px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 60vh;
+    min-height: 60vh;
     
 }
 
@@ -73,14 +73,10 @@ p {
     padding: 200px 100px 50px;
 }
 .image-4 img{
-    height: 300px;
-    width: 100%;
-    object-fit: cover;
+    
 }
 .image-6 img{
-    height: 200px;
-    width: 100%;
-    object-fit: cover;
+ 
 }
 /* Clients Section */
 
@@ -147,7 +143,7 @@ p {
         height: 750px;
     }
     .banner{
-        padding: 20px;
+        padding: 50px;
         text-align: center;
     }
     .carousel-item img{
@@ -156,6 +152,10 @@ p {
     .navbar{
         justify-content: right;
     }
+
+    .button-list > .btn{
+        margin:5px
+    } 
 }
 @media (max-width: 1199.98px) { 
     
