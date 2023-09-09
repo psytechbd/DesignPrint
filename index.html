@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <!-- Animation CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>DesignPrinting</title>
 </head>
 
@@ -38,7 +41,7 @@
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg navbar-light mt-4 ">
         <a class="navbar-brand col-md-2" href="#">
-            <img class="img-fluid" src="assets/Logo.png" alt="">
+            <img data-aos="fade-down" class="img-fluid" src="assets/Logo.png" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -79,8 +82,9 @@
     <!-- Nav Bar -->
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light mb-4">
-        <button class="navbar-toggler text-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler text-right" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse menubar" id="navbarSupportedContent2">
@@ -126,7 +130,7 @@
     <!-- Navigation -->
     <!-- Banner -->
     <div class=" banner">
-        <div class="container row mx-auto">
+        <div class="container row mx-auto animate__animated animate__fadeInDown">
             <div class="col-md-12 text-light text-center">
                 <h3>OUR REALLY BIG SALE</h3>
                 <h2>Limited time: Up to 40% off top picks</h2>
@@ -137,7 +141,7 @@
                     <button type="button" class="btn btn-outline-light">All Deals</button>
                 </div>
             </div>
-            
+
         </div>
     </div>
     <!-- Banner -->
@@ -146,28 +150,28 @@
     <div class="container section-margin">
         <div class="row top-product">
             <div class="col-md-6 p-2">
-                <div class="bg-image rounded h-100 d-flex justify-content-center"
+                <div data-aos="fade-right" class="bg-image rounded h-100 d-flex justify-content-center"
                     style="background-image: url(assets/banner.jpg);">
-                    <button type="button" class="btn btn-info btn-bottom">Banner</button>
+                    <button type="button" class="btn btn-info btn-bottom animate__animated animate__fadeInDown">Banner</button>
                 </div>
             </div>
             <div class="col-md-6 p-2">
                 <div class="row h-50 pb-2">
-                    <div class="col-md-6">
+                    <div data-aos="fade-left" class="col-md-6">
                         <div class="rounded bg-image h-100 d-flex justify-content-center"
                             style="background-image: url(assets/packaging.jpg);">
                             <button type="button" class="btn btn-info btn-bottom">packaging</button>
                         </div>
                     </div>
 
-                    <div class="col-md-6">
+                    <div data-aos="fade-left" class="col-md-6">
                         <div class="rounded bg-image h-100 d-flex justify-content-center"
                             style="background-image: url(assets/printing.jpg);">
                             <button type="button" class="btn btn-info btn-bottom">Printing</button>
                         </div>
                     </div>
                 </div>
-                <div class="row h-50 pt-2">
+                <div data-aos="fade-left" class="row h-50 pt-2">
                     <div class="col-md-6 pt-2">
                         <div class="rounded bg-image h-100 d-flex justify-content-center"
                             style="background-image: url(assets/vcard.jpg);">
@@ -175,7 +179,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6 pt-2">
+                    <div data-aos="fade-left" class="col-md-6 pt-2">
                         <div class="rounded bg-image h-100 d-flex justify-content-center"
                             style="background-image: url(assets/ad.jpg);">
                             <button type="button" class="btn btn-info btn-bottom">Advertise</button>
@@ -186,55 +190,56 @@
         </div>
     </div>
     <!-- Top Products -->
+
     <!-- Printing Products -->
     <div class="container-fluid">
         <h2 class="mb-2 text-right">40% Off On Business Printing...</h2>
         <div class="row image-4">
-            <div class="col-md-3">
+            <div data-aos="fade-down" class="col-md-3">
                 <img class="img-fluid" src="assets/S001594829.webp" alt="">
                 <a href="#">
                     <p class="text-dark pt-2">Postcards & Print Advertising <i class="fa-solid fa-arrow-right"></i></p>
                 </a>
             </div>
-            <div class="col-md-3">
+            <div data-aos="fade-down" class="col-md-3">
                 <img class="img-fluid" src="assets/S001594764.webp" alt="">
                 <a href="#">
                     <p class="text-dark pt-2">Business Cards <i class="fa-solid fa-arrow-right"></i></p>
                 </a>
             </div>
-            <div class="col-md-3">
+            <div data-aos="fade-down" class="col-md-3">
                 <img class="img-fluid" src="assets/S001595179.webp" alt="">
                 <a href="#">
                     <p class="text-dark pt-2">Signs, Banners & Posters <i class="fa-solid fa-arrow-right"></i></p>
                 </a>
             </div>
-            <div class="col-md-3">
+            <div data-aos="fade-down" class="col-md-3">
                 <img class="img-fluid" src="assets/S001617520.webp" alt="">
                 <a href="#">
                     <p class="text-dark pt-2">Promotional Products <i class="fa-solid fa-arrow-right"></i></p>
                 </a>
             </div>
         </div>
-        <div class="row image-4">
+        <div data-aos="fade-down" class="row image-4">
             <div class="col-md-3">
                 <img class="img-fluid" src="assets/S001594683.webp" alt="">
                 <a href="#">
                     <p class="text-dark pt-2">Labels, Stickers & Packaging <i class="fa-solid fa-arrow-right"></i></p>
                 </a>
             </div>
-            <div class="col-md-3">
+            <div data-aos="fade-down" class="col-md-3">
                 <img class="img-fluid" src="assets/S001594788.webp" alt="">
                 <a href="#">
                     <p class="text-dark pt-2">Invitations & Announcements <i class="fa-solid fa-arrow-right"></i></p>
                 </a>
             </div>
-            <div class="col-md-3">
+            <div data-aos="fade-down" class="col-md-3">
                 <img class="img-fluid" src="assets/S001594726.webp" alt="">
                 <a href="#">
                     <p class="text-dark pt-2">Clothing & Bags <i class="fa-solid fa-arrow-right"></i></p>
                 </a>
             </div>
-            <div class="col-md-3">
+            <div data-aos="fade-down" class="col-md-3">
                 <img class="img-fluid" src="assets/S001594798.webp" alt="">
                 <a href="#">
                     <p class="text-dark pt-2">Home & Gifts <i class="fa-solid fa-arrow-right"></i></p>
@@ -243,55 +248,12 @@
         </div>
     </div>
     <!-- Printing Products -->
-    <!-- Popular Products -->
-    <div class="container-fluid section-margin">
-        <h2 class="">Popular Product in Best Prices ...</h2>
-        <div class="row image-6">
-            <div class="col-md-2">
-                <img class="img-fluid" src="assets/S001629560.webp" alt="">
-                <a href="#">
-                    <p class="text-dark pt-2">Postcards <i class="fa-solid fa-arrow-right"></i></p>
-                </a>
-            </div>
-            <div class="col-md-2">
-                <img class="img-fluid" src="assets/S001628407.webp" alt="">
-                <a href="#">
-                    <p class="text-dark pt-2">Vinyl Banners <i class="fa-solid fa-arrow-right"></i></p>
-                </a>
-            </div>
-            <div class="col-md-2">
-                <img class="img-fluid" src="assets/S001628351.webp" alt="">
-                <a href="#">
-                    <p class="text-dark pt-2">Sheet Stickers <i class="fa-solid fa-arrow-right"></i></p>
-                </a>
-            </div>
-            <div class="col-md-2">
-                <img class="img-fluid" src="assets/S001649130.webp" alt="">
-                <a href="#">
-                    <p class="text-dark pt-2">T-shirts <i class="fa-solid fa-arrow-right"></i></p>
-                </a>
-            </div>
-            <div class="col-md-2">
-                <img class="img-fluid" src="assets/S001649065.webp" alt="">
-                <a href="#">
-                    <p class="text-dark pt-2">Round Corner Cards <i class="fa-solid fa-arrow-right"></i></p>
-                </a>
-            </div>
-            <div class="col-md-2">
-                <img class="img-fluid" src="assets/S001458263.webp" alt="">
-                <a href="#">
-                    <p class="text-dark pt-2">Invitations & Announcements <i class="fa-solid fa-arrow-right"></i></p>
-                </a>
-            </div>
-        </div>
-    </div>
-    <!-- Popular Products -->
     <!-- Spacial Products -->
     <div class="container-fluid section-margin">
         <div class="row">
-            <div class="col-md-6">
-                <div class="bg-image" style="background-image: url(assets/bg.jpg);">
-                    <div class="content-banner text-light">
+            <div data-aos="fade-right" class="col-md-6">
+                <div class="bg-image" style="background-image: url(assets/S001630082.webp);">
+                    <div class="content-banner">
                         <h2 class="font-bold">
                             30% Off For <br>Corporate Printing
                         </h2>
@@ -303,9 +265,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="bg-image" style="background-image: url(assets/bg2.jpg);">
-                    <div class="content-banner text-light">
+            <div data-aos="fade-left" class="col-md-6">
+                <div class="bg-image" style="background-image: url(assets/S001628434.webp);">
+                    <div class="content-banner">
                         <h2 class="font-bold">
                             Need Graphics <br>Or Designer
                         </h2>
@@ -320,28 +282,72 @@
         </div>
     </div>
     <!-- Spacial Products -->
+    <!-- Popular Products -->
+    <div class="container-fluid section-margin popular">
+        <h2 class="">Popular Product in Best Prices ...</h2>
+        <div class="row image-6">
+            <div data-aos="fade-right" class="col-md-2">
+                <img class="img-fluid" src="assets/S001629560.webp" alt="">
+                <a href="#">
+                    <p class="text-dark pt-2">Postcards <i class="fa-solid fa-arrow-right"></i></p>
+                </a>
+            </div>
+            <div data-aos="fade-right" class="col-md-2">
+                <img class="img-fluid" src="assets/S001628407.webp" alt="">
+                <a href="#">
+                    <p class="text-dark pt-2">Vinyl Banners <i class="fa-solid fa-arrow-right"></i></p>
+                </a>
+            </div>
+            <div data-aos="fade-right" class="col-md-2">
+                <img class="img-fluid" src="assets/S001628351.webp" alt="">
+                <a href="#">
+                    <p class="text-dark pt-2">Sheet Stickers <i class="fa-solid fa-arrow-right"></i></p>
+                </a>
+            </div>
+            <div data-aos="fade-right" class="col-md-2">
+                <img class="img-fluid" src="assets/S001649130.webp" alt="">
+                <a href="#">
+                    <p class="text-dark pt-2">T-shirts <i class="fa-solid fa-arrow-right"></i></p>
+                </a>
+            </div>
+            <div data-aos="fade-right" class="col-md-2">
+                <img class="img-fluid" src="assets/S001649065.webp" alt="">
+                <a href="#">
+                    <p class="text-dark pt-2">Round Corner Cards <i class="fa-solid fa-arrow-right"></i></p>
+                </a>
+            </div>
+            <div data-aos="fade-right" class="col-md-2">
+                <img class="img-fluid" src="assets/S001458263.webp" alt="">
+                <a href="#">
+                    <p class="text-dark pt-2">Invitations & Announcements <i class="fa-solid fa-arrow-right"></i></p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Popular Products -->
+    
     <!-- categories -->
-    <div class="container section-margin">
+    <div class="container section-margin categories">
         <h2 class="text-center margin">Other Products</h2>
         <div class="row image-6">
             <div class="col-md-1"></div>
-            <div class="col-md-2">
+            <div data-aos="fade-up" class="col-md-2">
                 <img class="img-fluid" src="assets/S001628459.webp" alt="">
                 <p class="text-center">Business Cards</p>
             </div>
-            <div class="col-md-2">
+            <div data-aos="fade-up" class="col-md-2">
                 <img class="img-fluid" src="assets/S001628467.webp" alt="">
                 <p class="text-center">Labels, Stickers & Packaging</p>
             </div>
-            <div class="col-md-2">
+            <div data-aos="fade-up" class="col-md-2">
                 <img class="img-fluid" src="assets/S001629592.webp" alt="">
                 <p class="text-center">Clothing & Bags</p>
             </div>
-            <div class="col-md-2">
+            <div data-aos="fade-up" class="col-md-2">
                 <img class="img-fluid" src="assets/S001629589.webp" alt="">
                 <p class="text-center">Signs & Banners</p>
             </div>
-            <div class="col-md-2">
+            <div data-aos="fade-up" class="col-md-2">
                 <img class="img-fluid" src="assets/S001629584.webp" alt="">
                 <p class="text-center">Home & Gift</p>
             </div>
@@ -349,23 +355,23 @@
         </div>
         <div class="row pt-4 image-6">
             <div class="col-md-1"></div>
-            <div class="col-md-2">
+            <div data-aos="fade-up" class="col-md-2">
                 <img class="img-fluid" src="assets/S001629579.webp" alt="">
                 <p class="text-center"> Invitations & Stationery</p>
             </div>
-            <div class="col-md-2">
+            <div data-aos="fade-up" class="col-md-2">
                 <img class="img-fluid" src="assets/S001628473.webp" alt="">
                 <p class="text-center">Postcards & Print Advertising</p>
             </div>
-            <div class="col-md-2">
+            <div data-aos="fade-up" class="col-md-2">
                 <img class="img-fluid" src="assets/S001628474.webp" alt="">
                 <p class="text-center">Digital Marketing </p>
             </div>
-            <div class="col-md-2">
+            <div data-aos="fade-up" class="col-md-2">
                 <img class="img-fluid" src="assets/S001628479.webp" alt="">
                 <p class="text-center">Promotional Product </p>
             </div>
-            <div class="col-md-2">
+            <div data-aos="fade-up" class="col-md-2">
                 <img class="img-fluid" src="assets/S001536525.webp" alt="">
                 <p class="text-center">Deals </p>
             </div>
@@ -377,30 +383,30 @@
     <div class="container-fluid section-header">
         <h3 class="margin">Our Awesome Works</h3>
         <div class="row image-4">
-            <div class="col-md-3">
+            <div data-aos="fade-down" class="col-md-3">
                 <img class="img-fluid" src="assets/S001628334.webp" alt="">
             </div>
-            <div class="col-md-3">
+            <div data-aos="fade-down" class="col-md-3">
                 <img class="img-fluid" src="assets/S001629599.webp" alt="">
             </div>
-            <div class="col-md-3">
+            <div data-aos="fade-down" class="col-md-3">
                 <img class="img-fluid" src="assets/S001646802.webp" alt="">
             </div>
-            <div class="col-md-3">
+            <div data-aos="fade-down" class="col-md-3">
                 <img class="img-fluid" src="assets/S001624757.webp" alt="">
             </div>
         </div>
         <div class="row mt-4 image-4">
-            <div class="col-md-3">
+            <div data-aos="fade-down" class="col-md-3">
                 <img class="img-fluid" src="assets/S001608766.webp" alt="">
             </div>
-            <div class="col-md-3">
+            <div data-aos="fade-down" class="col-md-3">
                 <img class="img-fluid" src="assets/S001624764.webp" alt="">
             </div>
-            <div class="col-md-3">
+            <div data-aos="fade-down" class="col-md-3">
                 <img class="img-fluid" src="assets/S001629609.webp" alt="">
             </div>
-            <div class="col-md-3">
+            <div data-aos="fade-down" class="col-md-3">
                 <img class="img-fluid" src="assets/S001615495.webp" alt="">
             </div>
         </div>
@@ -420,56 +426,56 @@
                 style="visibility: visible; animation-name: fadeInUp;">
 
                 <div class="col-lg-3 col-md-4 col-xs-6">
-                    <div class="client-logo">
+                    <div data-aos="fade-down" class="client-logo">
                         <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559460149/abof.png"
                             class="img-fluid" alt="">
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-xs-6">
-                    <div class="client-logo">
+                    <div data-aos="fade-down" class="client-logo">
                         <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559460224/cropped-cropped-20170720-lucuLogo-squ2-e1500543540803.png"
                             class="img-fluid" alt="">
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-xs-6">
-                    <div class="client-logo">
+                    <div data-aos="fade-down" class="client-logo">
                         <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559460269/104840a62d46c05d285762857fecb61a.png"
                             class="img-fluid" alt="">
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-xs-6">
-                    <div class="client-logo">
+                    <div data-aos="fade-down" class="client-logo">
                         <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559460358/client-4.png"
                             class="img-fluid" alt="">
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-xs-6">
-                    <div class="client-logo">
+                    <div data-aos="fade-down" class="client-logo">
                         <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559460379/client-5.png"
                             class="img-fluid" alt="">
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-xs-6">
-                    <div class="client-logo">
+                    <div data-aos="fade-down" class="client-logo">
                         <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559460398/client-6.png"
                             class="img-fluid" alt="">
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-xs-6">
-                    <div class="client-logo">
+                    <div data-aos="fade-down" class="client-logo">
                         <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559460418/client-7.png"
                             class="img-fluid" alt="">
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-xs-6">
-                    <div class="client-logo">
+                    <div data-aos="fade-down" class="client-logo">
                         <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559460224/cropped-cropped-20170720-lucuLogo-squ2-e1500543540803.png"
                             class="img-fluid" alt="">
                     </div>
@@ -487,6 +493,10 @@
     <!-- Footer -->
 
     <!-- Optional JavaScript -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>

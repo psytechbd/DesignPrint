@@ -11,6 +11,9 @@
 font-size: 14px;
 }
 
+.nav-item:hover{
+    background: rgb(197, 197, 197);
+}
 .banner {
     padding: 15vh;
     background-image: url("assets/Banner-bg-green.webp");
@@ -21,7 +24,15 @@ font-size: 14px;
     
 }
 
+.categories div div:hover{
+scale: 1.2;
+rotate: 15deg;
+}
 
+.popular div div:hover{
+    scale: 1.5;
+
+}
 
 .banner h2 {
     font-size: 50px;
@@ -73,6 +84,12 @@ p {
     padding: 200px 100px 50px;
 }
 .image-4 img{
+    width: 100%;
+    
+}
+.image-4 img:hover{
+    border: 5px solid gray;
+    transform-box: stroke-box;
     
 }
 .image-6 img{
@@ -131,6 +148,7 @@ p {
 #clients img {
     transition: all 0.4s ease-in-out;
 }
+
  
 @media (max-width: 576px)  {
     .btn-bottom{
