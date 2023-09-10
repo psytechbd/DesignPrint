@@ -8,8 +8,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
     <!-- Animation CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -18,7 +18,7 @@
 
 <body>
     <!-- Top Bar -->
-    <div class="bg-light">
+    <div class="bg-light top-bar">
         <ul class="nav">
             <li class="nav-item">
                 <a class="nav-link text-dark active" href="#">Design</a>
@@ -43,36 +43,36 @@
         <a class="navbar-brand col-md-2" href="#">
             <img data-aos="fade-down" class="img-fluid" src="assets/Logo.png" alt="">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-        </button>
+        </button> -->
         <form class="form-inline my-2 my-lg-0  mr-auto col-md-5 ">
             <input class="form-control mr-sm-2 w-100" type="search" placeholder="Search" aria-label="Search">
         </form>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-            <ul class="navbar-nav">
+        <div class="justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav cart-menu align-items-center">
                 <li class="nav-item  mr-10">
                     <a class="nav-link  d-flex align-items-center  text-dark" href="#">
-                        <h3><i class="fa-regular fa-circle-question p-2"></i></h3>
+                        <i class="fa-regular fa-circle-question p-2 "></i>
                         <p>Help is Here <br> 01700001110</p>
                     </a>
                 </li>
                 <li class="nav-item  mr-10">
                     <a class="nav-link  d-flex align-items-center text-dark" href="#">
-                        <h3 class="p-2"><i class="fa-regular fa-folder"></i></i></h3>
+                        <i class="fa-regular fa-folder"></i>
                         <p>My Project</p>
                     </a>
                 </li>
                 <li class="nav-item  mr-10">
                     <a class="nav-link  d-flex align-items-center text-dark" href="#">
-                        <h3 class="p-2"><i class="fa-regular fa-user"></i></h3>
+                        <i class="fa-regular fa-user"></i>
                         <p>Sign In</p>
                     </a>
                 </li>
                 <li class="nav-item mr-10">
                     <a class="nav-link  d-flex align-items-center text-dark" href="#">
-                        <h3 class="p-2"><i class="fa-solid fa-cart-shopping"></i></h3>
+                     <i class="fa-solid fa-cart-shopping"></i>
                         <p>Cart</p>
                     </a>
                 </li>
@@ -251,7 +251,7 @@
     <!-- Spacial Products -->
     <div class="container-fluid section-margin">
         <div class="row">
-            <div data-aos="fade-right" class="col-md-6">
+            <div data-aos="fade-right" class="col-md-6 mb-4">
                 <div class="bg-image" style="background-image: url(assets/S001630082.webp);">
                     <div class="content-banner">
                         <h2 class="font-bold">

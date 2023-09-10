@@ -37,7 +37,7 @@ rotate: 15deg;
 .banner h2 {
     font-size: 50px;
 }
-.banner h2,h3,h5{
+.banner > h2,h3,h5{
     margin-bottom:20px;
 }
 
@@ -92,9 +92,7 @@ p {
     transform-box: stroke-box;
     
 }
-.image-6 img{
- 
-}
+
 /* Clients Section */
 
 .section-header h3 {
@@ -149,6 +147,10 @@ p {
     transition: all 0.4s ease-in-out;
 }
 
+.nav-item > a >i{
+    font-size:20px
+}
+
  
 @media (max-width: 576px)  {
     .btn-bottom{
@@ -161,19 +163,58 @@ p {
         height: 750px;
     }
     .banner{
-        padding: 50px;
+        padding: 50px 20px;
         text-align: center;
+        min-height: auto;
     }
-    .carousel-item img{
-        height: 300px;
+
+    .banner h3{
+        font-size: 18px;
     }
+    .banner h2{
+        font-size: 24px;
+    }
+    .banner h5{
+        font-size: 12px;
+    }
+   
     .navbar{
         justify-content: right;
     }
 
     .button-list > .btn{
-        margin:5px
+        margin:5px;
+        font-size:12px
     } 
+
+    #navbarSupportedContent{
+
+        width: 100%;
+    }
+    .cart-menu{
+       flex-direction: row;
+       justify-content: space-around;
+      
+    }
+    
+    .cart-menu li h3{
+        font-size: 12px;
+     }
+     .cart-menu > a {
+        flex-direction: column;
+     }
+     .nav-item > a > p{
+        display: none;
+     }
+     .top-bar ul{
+        justify-content: center;
+     }
+     .content-banner{
+        padding:50px 20px 50px
+     }
+     .bg-banner{
+        background-position: top;
+     }
 }
 @media (max-width: 1199.98px) { 
     
