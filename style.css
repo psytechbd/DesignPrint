@@ -25,11 +25,13 @@ font-size: 14px;
 }
 
 .categories div div img:hover{
-scale: 1.2;
-rotate: 15deg;
-transition-duration: 1s;
-margin-bottom: 30px;
-}
+	scale: 1.1;
+	rotate: 15deg;
+	transition-duration: 1s;
+	}
+	.categories div div img{
+		margin-bottom: 20px;
+		}
 
 .popular div div:hover{
     scale: 1.1;
